@@ -32,6 +32,7 @@ monolithic-project/
 
 To run it:
 - Just make sure that you have `node 16 and above`.
+- Do `npm install` inside of each module, since they don't share a `node_modules` folder.
 - To run all the microservices:
   - At the root folder, you can simply run:
 ```shell
