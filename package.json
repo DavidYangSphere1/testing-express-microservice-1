@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "concurrently 'npm start --prefix microservice-1' 'npm start --prefix microservice-2' 'npm start --prefix api-gateway'"
+  }
+}
